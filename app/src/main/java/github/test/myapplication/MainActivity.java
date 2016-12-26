@@ -23,6 +23,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.button2:
                 Toast.makeText(MainActivity.this, "修改", Toast.LENGTH_SHORT).show();
                 break;
+            case R.id.button3:
+                Toast.makeText(MainActivity.this, "修改第二次", Toast.LENGTH_SHORT).show();
+                break;
         }
     }
 }
