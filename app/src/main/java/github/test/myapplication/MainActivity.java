@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,6 +19,9 @@ public class MainActivity extends AppCompatActivity {
                 //跳转
                 Intent intent=new Intent(this,Main2Activity.class);
                 this.startActivity(intent);
+                break;
+            case R.id.button2:
+                Toast.makeText(MainActivity.this, "修改", Toast.LENGTH_SHORT).show();
                 break;
         }
     }
